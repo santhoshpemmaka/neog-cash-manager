@@ -1,0 +1,60 @@
+:root{
+    --primary : #312E81;
+}
+
+
+.main{
+    text-align: center;
+}
+h2{
+    font-size: 2rem;
+    color: var(--primary);
+    padding: 1.5rem;
+    margin: 1rem;
+}
+p{
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+.input-text{
+    padding: 1rem;
+}
+input{
+    border: solid 2px var(--primary);
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 15rem;
+    margin-top: 1rem;
+}
+button{
+    height: 5vh;
+    width: 10vw;
+    margin: 1rem 0rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    background-color: #2563EB;
+    color: white;
+}
+table {
+    display: table;
+    border: solid 1px var(--primary-color);
+    border-collapse: collapse;
+    box-sizing: border-box;
+    border-spacing: 2px;
+    width: 50%;
+    margin: auto;
+}
+caption{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+th,
+td {
+  border: solid 2px var(--primary-color);
+  padding: 0.4rem;
+  width: 0%;
+  border-collapse: collapse;
+}
